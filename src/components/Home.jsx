@@ -10,28 +10,12 @@ export default class Home extends Component {
             <Grid>
                 <Jumbotron>
                     <h2>Willkommen beim Cookiecaster 2.0</h2>
-                    <p>this is how we do it</p>
+                    <p>Möchtest Du Deine eigene persönliche Keksform kreieren?</p>
                     <Link to="/start">
-                        <Button bsStyle="primary">Start</Button>
+                        <Button bsStyle="primary">Los geht's!</Button>
                     </Link>
                 </Jumbotron>
-               <Row className="show-grid text-center">
-                    <Col xs={12} sm={4} className="person-wrapper">
-                    <Image src="assets/person-1.jpg" circle className="profile-pic" />
-                        <h3>Frank</h3>
-                        <p>Blabla the balblablabalbl</p>
-                    </Col>
-                   <Col xs={12} sm={4} className="person-wrapper">
-                       <Image src="assets/person-2.jpg" circle className="profile-pic" />
-                       <h3>Frank</h3>
-                       <p>Blabla the balblablabalbl</p>
-                   </Col>
-                   <Col xs={12} sm={4} className="person-wrapper">
-                       <Image src="assets/person-3.jpg" circle className="profile-pic" />
-                       <h3>Frank</h3>
-                       <p>Blabla the balblablabalbl</p>
-                   </Col>
-               </Row>
+
             </Grid>
         )
     }
