@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import {Jumbotron, Grid, Row, Col, Image, Button} from 'react-bootstrap';
 import './Home.css';
 
-
 export default class Home extends Component {
     render() {
         return (
@@ -14,7 +13,7 @@ export default class Home extends Component {
                     <h2>Willkommen beim Cookiecaster 2.0</h2>
                     <p>Möchtest Du Deine eigene persönliche Keksform kreieren?</p>
                     <Link to="/start">
-                        <Button bsStyle="primary">Los geht's!</Button>
+                        <Button bsStyle="btn btn-primary">Los geht's!</Button>
                     </Link>
                     </Col>
                     <Col xs={12} sm={4} className="main-section">

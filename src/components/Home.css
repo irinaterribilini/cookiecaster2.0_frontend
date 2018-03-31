@@ -16,6 +16,10 @@ jumbotron, p, h2 {
     width: 50%;
 }
 
+h3{
+    margin-bottom: 1em;
+}
+
 .btn-primary{
     background-image: none;
     border: none;
@@ -26,9 +30,10 @@ jumbotron, p, h2 {
 
 .btn-primary:hover{
     background-color: rgba(71, 46, 17, 0.44);
+    border-color: rgba(71, 46, 17, 0.44);
 }
 
-h3{
-    margin-bottom: 1em;
+.btn-primary:focus{
+    background-color: #705432 !important;
+    box-shadow: none !important;
 }
-
