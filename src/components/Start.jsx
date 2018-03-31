@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Grid, Col, Image} from 'react-bootstrap';
-import './About.css';
+import './Start.css';
 
-export default class About extends Component {
+export default class Start extends Component {
     render() {
         return (
             <div>

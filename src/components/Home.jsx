@@ -9,10 +9,10 @@ export default class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2>Welcome to my life</h2>
+                    <h2>Willkommen beim Cookiecaster 2.0</h2>
                     <p>this is how we do it</p>
-                    <Link to="/about">
-                        <Button bsStyle="primary">About</Button>
+                    <Link to="/start">
+                        <Button bsStyle="primary">Start</Button>
                     </Link>
                 </Jumbotron>
                <Row className="show-grid text-center">
