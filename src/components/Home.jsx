@@ -15,6 +15,11 @@ export default class Home extends Component {
                         <Button bsStyle="primary">Los geht's!</Button>
                     </Link>
                 </Jumbotron>
+<Col>
+    <Row>
+        
+    </Row>
+</Col>
 
             </Grid>
         )
