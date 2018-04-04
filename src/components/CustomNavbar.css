@@ -1,5 +1,10 @@
-nav.navbar, .navbar-default {
+.navbar-nav, .navbar-default {
     background-color: #705432 !important;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.navbar-nav > li > a{
+    text-shadow: none;
 }
 
 .navbar-default {
@@ -14,6 +19,8 @@ nav.navbar, .navbar-default {
 
 .navbar-default .navbar-brand {
     color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: none;
 }
 
 .navbar-default .navbar-toggle {
